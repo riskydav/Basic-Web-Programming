@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Form Data Diri</title>
+    </head>
+    <body>
+        <form action="file_aksi.php" method="post">
+            <label>Form Sewa Mobil : </label>
+            <br><br>
+            <label>Nama Lengkap : <input type="text" name="namaPengguna"</label>
+            <br><br>
+            <label>Tempat Lahir : <input type="text" name="tmptlhr"</label>
+            <br><br>
+            <label>Tanggal Lahir : <input type="date" name="tgllhr"</label>
+            <br><br>
+            <label>Jenis Kelamin : </label>
+                <input type="radio" name="jeniskel" value="laki-laki">
+                    <label for="jeniskel">Laki-laki</label>
+                <input type="radio" name="jeniskel" value="perempuan">
+                    <label for="jeniskel">Perempuan</label>
+            <br><br>
+            <label>Mobil yang akan disewa :</label>
+            <select name="jenismobil" size="1">
+                <option value="Av">Avanza</option>
+                <option value="Mo">Mobilio</option>
+                <option value="Pa">Pajero</option>
+                <option value="Fo">Fortuner</option>
+            </select>
+            <label>Tahun :</label>
+            <select name="tahun" size="1">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2019">2019</option>
+                <option value="2022">2022</option>
+            </select>
+            <br><br>
+            <label>Waktu pengambilan mobil : <input type="time" name="ambilmobil"</label>
+            <br><br>
+            <label>Waktu pengembalian mobil : <input type="time" name="kembalimobil"</label>
+            <br><br>
+            <label>Upload gambar KTP : </label>
+                <input type="file" name="file">
+            <br><br>
+            <input type="submit" value="Kirim">
+        </form>
+    </body>
+</html>

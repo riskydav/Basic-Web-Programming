@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Form Data Diri</title>
+    </head>
+    <body>
+        <form action="file_aksi.php" method="post">
+            <label>Nama Lengkap : <input type="text" name="namaPengguna"</label>
+            <br><br>
+            <label>Tanggal Lahir : <input type="date" name="tgllhr"</label>
+            <br><br>
+            <label>Jenis Kelamin : </label>
+                <input type="radio" name="jeniskel" value="laki-laki">
+                    <label for="jeniskel">Laki-laki</label>
+                <input type="radio" name="jeniskel" value="perempuan">
+                    <label for="jeniskel">Perempuan</label>
+            <br><br>
+            <label>Hobi :</label>
+            <br><br>
+            <input type="checkbox" name="hobi" value="membaca">
+                <label>Suka Membaca</label>
+            <br><br>
+            <input type="checkbox" name="hobi" value="olahraga">
+                <label>Suka Olahraga</label>
+            <br><br>
+            <input type="checkbox" name="hobi" value="traveling">
+                <label>Suka Jalan-jalan</label>
+            <br><br>
+            <label>Negara :</label>
+            <select name="asalnegara" size="1">
+                <option value="id">Indonesia</option>
+                <option value="my">Malaysia</option>
+                <option value="sg">Singapura</option>
+                <option value="th">Thailand</option>
+            </select>
+            <br><br>
+            <label>Alamat Lengkap : </label>
+                <textarea name="alamatlkp" rows="5" cols="50"></textarea>
+            <br><br>
+            <label>Arsip/File CV terbaru : </label>
+                <input type="file" name="cv">
+            <br><br>
+            <label>Password : <input type="password" id="fpass" name="katakunci" value=""</label>
+            <br><br>
+            <input type="submit" value="Kirim">
+        </form>
+    </body>
+</html>
